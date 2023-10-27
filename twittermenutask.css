@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+
+.twitter {
+  padding: 4rem;
+}
+.nav-menu ul {
+  background-color: rgb(244, 244, 250);
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 2rem;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  width: 20px;
+  align-items: center;
+}
+.nav-menu ul i {
+  padding: 0.5rem;
+}
