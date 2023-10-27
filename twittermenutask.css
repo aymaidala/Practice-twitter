@@ -8,19 +8,58 @@ body {
 }
 
 .twitter {
-  padding: 4rem;
+  padding: 1rem;
+  background-color: aquamarine;
+}
+.nav-menu{
+    flex: 0.1;
 }
 .nav-menu ul {
-  background-color: rgb(244, 244, 250);
+  background-color: rgb(165, 165, 203);
   /* display: flex; */
   /* justify-content: space-between; */
   padding: 2rem;
   list-style: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   box-sizing: border-box;
-  width: 20px;
+  /* width: 20px; */
   align-items: center;
+  
 }
 .nav-menu ul i {
   padding: 0.5rem;
+}
+.twitter-section {
+  display: flex;
+  
+}
+
+.div-class {
+  /* display: flex; */
+  background-color: antiquewhite;
+  flex: 0.6;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.heading-div {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+
+}
+.icon-class i{
+  padding: 1rem;
+}
+.icon-class button{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 300px;
+    margin-left: 15rem;
+    
+}
+.search-section {
+  background-color: gray;
+  flex: 0.3;
 }
