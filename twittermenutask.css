@@ -41,6 +41,18 @@ body {
   padding-left: 1rem;
   padding-top: 1rem;
 }
+.div-class p{
+  margin-bottom: 20px;
+  padding-top: 8px;
+  padding-left: 5px;
+  
+}
+.div-class img{
+  height: 30px;
+  width: auto;
+  border-radius: 40px;
+
+}
 .heading-div {
   display: flex;
   justify-content: space-between;
@@ -48,6 +60,17 @@ body {
   padding-right: 4rem;
   padding-top: 2rem;
 
+}
+.profile-div{
+  display: flex;
+}
+.search-for-course-button2{
+  border: none;
+  width: 500px;
+  height: 35px;
+  margin-left: 0.5rem;
+  border-radius: 30px;
+  /* color: blue; */
 }
 .icon-class i{
   padding: 1rem;
@@ -57,9 +80,46 @@ body {
     width: 5rem;
     border-radius: 300px;
     margin-left: 15rem;
+    background-color: dodgerblue;
+    border-color: white;
+    color: white;
     
+}
+.poonam-profile{
+  display: flex;
+  margin-top: 30px;
+}
+.poonam-profile img{
+  height: 30px;
+  width: auto;
+  border-radius: 40px;
+}
+.poonam-div img{
+height: 300px;
+width: auto;
+border-radius: 10px;
 }
 .search-section {
   background-color: gray;
   flex: 0.3;
+}
+.search-bar{
+  border-radius: 40px;
+  
+}
+.search-bar input{
+  height: 40px;
+  width: 200px;
+  border-radius: 15px;
+  
+}
+.search-bar text{
+  color: blue;
+  margin: 1rem;
+  
+}
+.subscribe-div{
+ margin: 1rem;
+ border-radius: 35px;
+
 }
